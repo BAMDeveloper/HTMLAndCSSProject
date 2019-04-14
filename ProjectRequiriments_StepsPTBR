@@ -1,0 +1,35 @@
+Requisitos
+
+Tudo bem, agora é hora de tornar seu website seu. Crie uma página pessoal sobre você, um de seus interesses ou qualquer outro tópico de sua escolha. O assunto, a aparência e o design do site são inteiramente seus, sujeitos aos seguintes requisitos:
+
+
+Seu site deve conter pelo menos quatro .html páginas diferentes , e deve ser possível ir de qualquer página do seu site para qualquer outra página seguindo um ou mais hiperlinks.
+>> OK!
+
+
+Seu site deve incluir pelo menos uma lista (ordenada ou não), pelo menos uma tabela e pelo menos uma imagem.
+>> OK!
+
+Seu site deve ter pelo menos um arquivo de folha de estilo.
+>> OK!
+
+
+Suas folhas de estilo devem usar pelo menos cinco propriedades CSS diferentes e pelo menos cinco tipos diferentes de seletores CSS. Você deve usar o #idseletor pelo menos uma vez e o .classseletor pelo menos uma vez.
+>> OK!
+
+
+Sua (s) folha (s) de estilo deve (m) incluir pelo menos uma @mediaconsulta sensível a dispositivos móveis , de modo que algo sobre o estilo mude para telas menores.
+>> OK!
+
+
+Você deve usar o Bootstrap 4 em seu site, aproveitando pelo menos um componente do Bootstrap e usando pelo menos duas colunas do Bootstrap para fins de layout usando o modelo de grade do Bootstrap .
+>> OK!
+
+
+Suas folhas de estilo devem usar pelo menos uma variável SCSS, pelo menos um exemplo de aninhamento SCSS e pelo menos um uso de herança SCSS.
+>> OK!
+
+
+Em README.md, inclua uma breve descrição descrevendo seu projeto, o que está contido em cada arquivo e (opcionalmente) qualquer outra informação adicional que a equipe deve saber sobre seu projeto.
+
+Note que nem todos os requisitos acima são abordados na Palestra 0, alguns serão introduzidos na Palestra 1.
