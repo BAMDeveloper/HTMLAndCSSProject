@@ -1,0 +1,38 @@
+
+
+// Create father class - generic with % symbol is an define un template, or are going inheritance
+
+// Generic message - Father class
+
+$color_details: #012336;
+$border_size_homeid: 2px;
+$padding_size: 10px;
+
+%container {
+    background-color: white;
+    /* border-left: 10px solid $color_details; */
+    /* border-right: 50px solid $color_details; */
+    padding-top: $padding_size;
+    padding-bottom: $padding_size;
+    padding-left: $padding_size;
+    padding-right: $padding_size;
+}
+
+// Specific Classes - Son clasess or @extend class of the class father
+// Using styling of the class %container plus specifcs styles per page
+
+#home {
+    @extend %container;
+     border-left: 10px solid $color_details;
+     border-right: 50px solid $color_details;
+}
+
+#others {
+    @extend %container;
+    border-top: $border_size_homeid double $color_details;
+    border-right: $border_size_homeid double $color_details;
+    border-bottom: $border_size_homeid double $color_details;
+    border-left: $border_size_homeid double $color_details;
+    // height: 500px;
+    // width: 1100px;
+}

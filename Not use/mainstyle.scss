@@ -1,0 +1,88 @@
+
+$color_main: #0568A5;
+$color_details: #012336;
+
+body {
+    background-color: $color_main;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-custom {
+    background-color: white;
+    color: $color_details;
+
+    border-right: 1px solid $color_details;
+    border-bottom: 2px solid $color_details;
+    border-left: 1px solid $color_details;
+}
+
+.navbar-brand {
+    color: $color_details;
+    font-weight: bold;
+}
+
+button {
+    color: $color_details;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: $color_details;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    color: $color_details;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link,
+.navbar-custom .nav-brand:hover {
+    color: $color_main;
+}
+
+.navbar-brand:hover {
+  color: $color_main;
+}
+
+#commonul > li {
+    list-style-type: square;
+}
+
+a:link, a:visited {
+    color: $color_details;
+}
+
+a:hover {
+  color: $color_main;
+}
+
+p > a{
+    text-decoration: underline;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #012336;
+   color: white;
+   text-align: center;
+   font-size: 13px;
+}
+
+// %liks{
+//     a:link, a:visited {
+//         color: $details_color;
+//     }
+//
+//     a:hover {
+//       color: $color_main;
+//   }
+// }
+//
+// %text_links {
+//     @extend %links;
+//     #otherslinks {
+//         text-decoration: underline;
+//     }
+// }

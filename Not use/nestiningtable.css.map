@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAOI,+BAAc;EACV,KAAK,EAPP,KAAK;AAUP,oBAAS;EACL,KAAK,EAVN,IAAI",
+"sources": ["nestingtable.scss"],
+"names": [],
+"file": "nestiningtable.css"
+}

@@ -1,0 +1,101 @@
+
+$color_main: #0568A5;
+$color_details: #012336;
+
+body {
+    background-color: $color_main;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-light {
+    background-color: white;
+    color: $color_details;
+
+    border-right: 1px solid $color_details;
+    border-bottom: 2px solid $color_details;
+    border-left: 1px solid $color_details;
+}
+
+.navbar-brand {
+    color: $color_details;
+    font-weight: bold;
+}
+
+button {
+    color: $color_details;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $color_details;
+}
+
+// .navbar-light .navbar-toggle .navbar-toggle-icon {
+//     color: $color_details !important;
+// }
+
+/* change the color of active or hovered links */
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:hover .nav-link,
+.navbar-light .nav-brand:hover {
+    color: $color_main;
+}
+
+// .navbar-brand:hover {
+//   color: $color_main;
+// }
+
+
+#commonul > li {
+    list-style-type: square;
+}
+
+a:link, a:visited {
+    color: $color_details;
+}
+
+a:hover {
+  color: $color_main;
+}
+
+.nav-item > .active > a{
+  color: $color_main;
+  font-weight: bold;
+}
+
+p > a{
+    text-decoration: underline;
+}
+
+.activepage {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #012336;
+   color: white;
+   text-align: center;
+   font-size: 13px;
+}
+
+// %liks{
+//     a:link, a:visited {
+//         color: $details_color;
+//     }
+//
+//     a:hover {
+//       color: $color_main;
+//   }
+// }
+//
+// %text_links {
+//     @extend %links;
+//     #otherslinks {
+//         text-decoration: underline;
+//     }
+// }

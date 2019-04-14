@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, inital-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+        <title>Bruno Moreira</title>
+        <link rel="icon" href="logos\BMIcon.png"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="mainstyle.css">
+        <link rel="stylesheet" href="containerstyle.css">
+
+        <style>
+            .presentation {
+                text-align: left;
+            }
+
+            .highlights {
+                color: #012336;
+            }
+
+            #welcome {
+                padding-top: 20px;
+                text-transform: uppercase;
+                padding-left: 10px;
+                text-decoration: underline;
+            }
+
+            @media (max-width: 400px) {
+                .highlights {
+                    font-size: 20px;
+                }
+                .container {
+                    border-left: 5px solid #012336;
+                    border-right: 25px solid #012336;;
+                }
+                #image {
+                    padding-top: 10px;
+                    padding-right: 100px;
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="navbar-brand" href="home.html">
+                <img src="logos\BMLogoDEV.png">
+                |
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html" >Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="interests.html">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plan.html">Plan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="volunteer.html">Volunteer Experience</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br><br>
+        <div class="container" id="home">
+            <div class="row">
+                <h1 id ="welcome">Welcome,</h1>
+            </div>
+            <br>
+            <div class="row" id="presentation">
+                    <div class="col-md-9">
+                        <p>
+                            My name is <b class="highlights"> Bruno Moreira </b>.
+                            <br>
+                            I'm twenty six years old. I'm from <b class="highlights"> Brazil </b> and IT Analyst.
+                        </p>
+                        <br>
+                        <p>
+                            Know more about me:
+                            <br>
+                            <ul id="commonul">
+                                <li>
+                                    <a href="experiences.html" >Experiences work</a>
+                                </li>
+                                <li>
+                                    <a href="volunteer.html">Volunteer work</a>
+                                </li>
+                                <li>
+                                    <a href="plan.html">Future plan</a>
+                                </li>
+                                <li>
+                                    <a href="interests.html">Interests</a>
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-md-auto" id="image">
+                        <img src="images\bam.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="footer">
+              <p>© 2019 Copyright: Bruno Moreira</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+tbody {
+  font-size: 15px; }
+  tbody #l1, tbody #l3, tbody #l5 {
+    color: #012C4E; }
+  tbody #l2, tbody #l4 {
+    color: #0381E2; }
+  tbody #l1 {
+    font-weight: bold; }
+
+/*# sourceMappingURL=nestingtable.css.map */

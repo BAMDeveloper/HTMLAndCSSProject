@@ -1,0 +1,19 @@
+
+$odd: #012C4E;
+$pair: #0381E2;
+
+tbody {
+    font-size: 15px;
+
+    #l1, #l3, #l5 {
+        color: $odd;
+    }
+
+    #l2, #l4 {
+        color: $pair;
+    }
+
+    #l1 {
+        font-weight: bold;
+    }
+}

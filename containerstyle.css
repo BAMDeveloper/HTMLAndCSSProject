@@ -1,0 +1,20 @@
+#home, #others {
+  background-color: white;
+  /* border-left: 10px solid $color_details; */
+  /* border-right: 50px solid $color_details; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+#home {
+  border-left: 10px solid #012336;
+  border-right: 50px solid #012336; }
+
+#others {
+  border-top: 2px double #012336;
+  border-right: 2px double #012336;
+  border-bottom: 2px double #012336;
+  border-left: 2px double #012336; }
+
+/*# sourceMappingURL=containerstyle.css.map */
